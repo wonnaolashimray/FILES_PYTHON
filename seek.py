@@ -1,0 +1,6 @@
+f=open("seek.txt","w+")
+f.write("hello")
+f.seek(2)
+d=f.read()
+print(d)
+f.close()
